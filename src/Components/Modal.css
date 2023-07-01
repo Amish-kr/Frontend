@@ -1,0 +1,49 @@
+.dd-3{
+    font-size: 2.4rem;
+    font-family: "Work Sans", sans-serif;
+  }
+  .dd-4{
+    font-size: 1.4rem;
+    margin: 1rem 0 2.4rem 0;
+    line-height: 1.8rem;
+    color: #212121;
+    font-weight: 400;
+    font-family: "Source Serif Pro", serif;
+  }
+  .dd-1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+  }
+  .dd-2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 30rem;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+  }
+  .dd-5{ 
+    border: none;
+    outline: none;
+    background: #1d39c4;
+    color: #fff;
+    border-radius: 6px;
+    /* max-width: 95px; */
+    max-width: 110px;
+    width: 100%;
+    /* max-height: 100px; */
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #1d39c4;
+  }

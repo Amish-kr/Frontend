@@ -1,0 +1,35 @@
+.policy-master-list-elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  position: relative;
+  width: fit-content;
+}
+
+.policy-master-list-element {
+  letter-spacing: 0;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 100%;
+  /* Updated width to 100% */
+  max-width: 1061px;
+  /* Added max-width for larger screens */
+  line-height: normal;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .policy-master-list-element {
+    max-width: 600px;
+    /* Adjusted max-width for medium-sized screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .policy-master-list-element {
+    max-width: 300px;
+    /* Adjusted max-width for smaller screens */
+  }
+}

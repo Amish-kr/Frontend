@@ -1,0 +1,985 @@
+.outer {
+    padding: 1.5rem 0;
+}
+
+.heading {
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.outer2 {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.meetType {
+    height: 20vh;
+    width: 23vw;
+    margin: 19px;
+    display: flex;
+}
+
+.icon {
+    /* height: 14vh;
+    width: 8vw; */
+    height: 6rem;
+    object-fit: contain;
+}
+
+.meetType1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 12px;
+    margin-left: 8px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.outer3 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 13vw;
+    height: 15vh;
+    background-color: white;
+    margin-left: 9px;
+}
+
+.text2 {
+    color: #3270c1;
+    font-weight: bolder;
+    font-size: 42px;
+    font-family: sans-serif;
+}
+
+.text3 {
+    color: #3270c1;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 40px;
+}
+
+.text4 {
+    color: #3270c1;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 23px;
+}
+
+.text1_2 {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.text1_3 {
+    width: 15vw;
+    height: 5vh;
+    margin-top: 12px;
+    margin-left: 3px;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.outer4 {
+    display: flex;
+}
+
+.outer5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 12vw;
+}
+
+.create_meet {
+    margin-top: 30px;
+    margin-left: 140px;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(24, 168, 224);
+    text-align: center;
+    color: white;
+    padding: 7px;
+    font-size: large;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.remove_underline {
+    text-decoration: none;
+    color: rgb(32, 146, 191);
+}
+
+.text5 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    border-top: 2px solid rgb(218, 224, 230);
+    border-bottom: 2px solid rgb(218, 224, 230);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text5_1 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    margin-left: 15px;
+    border-top: 2px solid rgb(218, 224, 230);
+    border-bottom: 2px solid rgb(218, 224, 230);
+    border-left: 2px solid rgb(218, 224, 230);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.text5_4 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    margin-right: 15px;
+    border-top: 2px solid rgb(218, 224, 230);
+    border-bottom: 2px solid rgb(218, 224, 230);
+    border-right: 2px solid rgb(218, 224, 230);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.outer6 {
+    display: flex;
+    /* margin: 25px; */
+    flex-direction: column;
+}
+
+.meet1 {
+    min-height: 25vh;
+    padding: 1rem 0rem;
+    width: 76vw;
+
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.meetHeading {
+    margin-left: 25px;
+    margin-top: 18px;
+    font-size: 27px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.meet2 {
+    display: flex;
+}
+
+.dateImg {
+    height: 24px;
+    width: 24px;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+
+.dateTime {
+    margin-left: 8px;
+    margin-top: 24px;
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.timeImg {
+    height: 24px;
+    width: 24px;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.viewDetails {
+    margin-left: 64vw;
+    display: flex;
+    color: rgb(32, 146, 191);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.linkArrowImg {
+    width: 26px;
+    margin-left: 5px;
+}
+
+.span1 {
+    font-weight: bold;
+    margin-left: 25px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 17px;
+}
+
+.span2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 14px;
+}
+
+.outer7 {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.avatarGroup {
+    display: flex;
+    margin-left: 20px;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: -15px;
+}
+
+.avatar_img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.joinInfo {
+    margin-left: 8px;
+    margin-top: 6px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.outer8 {
+    margin-top: 30px;
+    width: 17vw;
+    height: 5vh;
+    background-color: rgb(37, 124, 255);
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+}
+
+.cond5_1 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    margin-left: 15px;
+    color: white;
+    background-color: black;
+    height: 44px;
+    padding: 12px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.cond5 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    height: 44px;
+    padding: 12px;
+}
+
+.cond5_4 {
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    cursor: pointer;
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    height: 44px;
+    padding: 12px;
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.meet_green {
+    background-color: rgb(191, 255, 233);
+}
+
+.meet_orange {
+    background-color: rgb(255, 221, 183);
+}
+
+.meet_red {
+    background-color: rgb(255, 193, 202);
+}
+
+.temp {
+    @media screen and (max-width: 576px) {
+        .outer {
+            margin-top: 15px;
+        }
+
+        .heading {
+            font-size: large;
+        }
+
+        .outer2 {
+            display: block;
+            margin-top: 80px;
+        }
+
+        .meetType {
+            margin-left: 120px;
+            width: 100%;
+            margin-top: -50px;
+        }
+
+        .icon {
+            height: 10vh;
+            width: 20vw;
+        }
+
+        .text1 {
+            font-size: 18px;
+        }
+
+        .outer3 {
+            margin-left: 30px;
+        }
+
+        .text2 {
+            font-size: x-large;
+        }
+
+        .text1_2 {
+            font-size: 18px;
+        }
+
+        .text1_3 {
+            font-size: 18px;
+        }
+
+        .text3 {
+            margin-top: -5px;
+            font-size: 30px;
+            margin-left: 5px;
+        }
+
+        .text4 {
+            margin-top: -0.1px;
+            font-size: 10px;
+            margin-left: 5px;
+        }
+
+        .outer4 {
+            display: block;
+        }
+
+        .outer5 {
+            width: 90vw;
+            height: 7vh;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -60px;
+            /* font-size: medium;
+            justify-content: center; */
+        }
+
+        .text5_1 {
+            margin-left: 9px;
+            font-size: medium;
+            padding: 8px;
+        }
+
+        .text5 {
+            font-size: medium;
+            padding: 8px;
+        }
+
+        .text5_4 {
+            font-size: medium;
+            margin-right: 7px;
+        }
+
+        .cond5_1 {
+            height: 56px;
+        }
+
+        .cond5 {
+            height: 56px;
+        }
+
+        .cond5_4 {
+            height: 56px;
+        }
+
+        .meet1 {
+            height: 30vh;
+            width: 90vw;
+        }
+
+        .dateTime {
+            font-size: small;
+        }
+
+        .viewDetails {
+            margin-left: 26px;
+            margin-top: 10px;
+            margin-right: auto;
+        }
+
+        .spanOuter {
+            margin-top: 17px;
+        }
+
+        .span1 {
+            margin-left: -0.1cm;
+            font-size: 14px;
+            margin-left: 0.6cm;
+        }
+
+        .span2 {
+            font-size: 13px;
+        }
+
+        .outer7 {
+            margin-top: 20px;
+            margin-left: -0.1cm;
+            margin-left: 0.6cm;
+        }
+
+        .outer8 {
+            margin-bottom: -2px;
+            width: 25vw;
+            height: 5vh;
+        }
+    }
+
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+        .icon {
+            height: 10vh;
+            width: 11vw;
+        }
+
+        .text1 {
+            font-size: 15px;
+            margin-left: -10px;
+        }
+
+        .text2 {
+            font-size: larger;
+        }
+
+        .text1_2 {
+            font-size: 15px;
+            margin-left: -6px;
+        }
+
+        .text1_3 {
+            font-size: 15px;
+            margin-left: -10px;
+        }
+
+        .text3 {
+            font-size: 15px;
+            margin-left: 8px;
+            margin-top: -1px;
+            margin-top: 4px;
+        }
+
+        .text4 {
+            font-size: 10px;
+            margin-top: -1px;
+            margin-left: 8px;
+        }
+
+        .outer4 {
+            margin-top: -8px;
+        }
+
+        .outer5 {
+            width: 180vw;
+            margin-left: -2px;
+            margin-left: 8px;
+        }
+
+        .text5_1 {
+            font-size: 16px;
+            padding: 9px;
+            margin-left: 7px;
+        }
+
+        .text5 {
+            font-size: 16px;
+            padding: 9px;
+        }
+
+        .text5_4 {
+            font-size: 16px;
+            padding: 9px;
+            margin-left: 4px;
+        }
+
+        .cond5_1 {
+            height: 59px;
+        }
+
+        .cond5 {
+            height: 59px;
+        }
+
+        .cond5_4 {
+            height: 59px;
+        }
+
+        .create_meet {
+            margin-left: -2px;
+            margin-left: 10px;
+            margin-right: 5px;
+            width: 36vw;
+        }
+
+        .addSign {
+            font-size: 14px;
+        }
+
+        .create {
+            font-size: 14px;
+        }
+
+        .meet1 {
+            height: 30vh;
+        }
+
+        .viewDetails {
+            margin-left: -20px;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .spanOuter {
+            margin-top: 7px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .outer2 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .outer2 .meetType {
+        width: 90vw;
+        border: 1px solid rgb(217, 208, 208);
+        border-radius: 4px;
+        gap: 0rem;
+        margin: 0.4rem 0rem;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .meetType1 {
+        flex-direction: row;
+        flex: 1;
+        align-items: center;
+        height: auto;
+        /* border: 1px solid red; */
+        gap: 0;
+
+        .text1,
+        .text1_2,
+        .text1_3 {
+            font-size: 0.9rem;
+            height: 3rem;
+            display: grid;
+            place-content: center;
+            margin: 0;
+            flex: 0.9;
+            /* border: 1px solid red; */
+        }
+
+        .outer3 {
+            align-items: center;
+            justify-content: center;
+            width: 45%;
+            margin: 0;
+            flex: 1;
+            height: 5rem;
+            /* border: 1px solid red; */
+
+            .text4,
+            .text3 {
+                margin: 0;
+            }
+        }
+
+        .outer3 div {
+            font-size: 1rem;
+            /* border: 1px solid red; */
+        }
+    }
+
+    .meetType div img.icon {
+        object-fit: contain;
+        height: 3rem;
+        border-radius: 50%;
+        /* mix-blend-mode: multiply; */
+    }
+
+    .outer4 {
+        max-width: 90vw;
+        /* border: 1px solid red; */
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.7rem;
+        margin-top: 1rem;
+    }
+
+    .outer6 {
+        width: 80vw;
+    }
+
+    .outer5,
+    .create_meet {
+        margin: 0;
+        font-size: 0.9rem;
+    }
+
+    .create_meet {
+        height: 2rem;
+        max-width: 10rem;
+        display: flex;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3rem;
+    }
+
+    .outer5 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5rem;
+        row-gap: 0.2rem;
+    }
+
+    .outer5 div {
+        font-size: 0.9rem;
+        margin: 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+    .outer6 {
+        width: 95vw;
+        margin-top: .5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        /* border: 1px solid red; */
+
+        .meet1 {
+            margin: 0;
+            width: 100%;
+            height: auto;
+            gap: .5rem;
+            padding: 1rem 0rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &>div {
+                margin: 0;
+            }
+
+            .meetHeading {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .meet2 {
+                display: grid;
+                grid-template-columns: 2rem 1fr;
+                row-gap: .7rem;
+                column-gap: .5rem;
+
+                &>img,
+                &>div {
+                    margin: 0;
+                }
+
+                &>img {
+                    margin-left: auto;
+                }
+            }
+
+            .viewDetails {
+                align-items: center;
+                justify-content: center;
+            }
+
+            .spanOuter {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    .outer8 {
+        margin: 0;
+        width: 10rem;
+        height: 2.5rem;
+        display: grid;
+        place-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 501px) {
+
+    .outer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .outer2 {
+        flex-direction: column;
+        gap: .5rem;
+        padding: 0rem 1rem;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        margin-top: 0;
+        gap: 1rem;
+
+        .meetType {
+            width: 100%;
+            /* border: 1px solid rgb(252, 17, 17); */
+            border: none;
+            margin: 0;
+            height: 9rem;
+            padding: 0 1rem;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(217, 208, 208);
+            border-radius: 4px;
+
+            .icon {
+                object-fit: contain;
+                height: 10vw;
+            }
+
+            &>div:nth-child(1) {
+                /* flex: .8; */
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .meetType1 {
+                /* flex: 1.5; */
+                flex-direction: row;
+                align-items: center;
+
+                .text1,
+                .outer3 {
+                    margin: 0;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                }
+
+                .outer3 {
+                    &>div {
+                        margin: 0;
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .text1,
+                .text1_2,
+                .text1_3 {
+                    font-size: 1.5rem;
+                    height: 100%;
+                    width: 30vw;
+                    display: grid;
+                    place-content: center;
+                    margin: 0;
+                    font-weight: 600;
+                }
+
+                .outer3 {
+                    flex: 1;
+                    justify-content: flex-start;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+
+    .outer4 {
+        max-width: 90vw;
+        /* border: 1px solid red; */
+        margin: 0 auto;
+        margin-top: .5rem;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.7rem;
+
+        .outer5 {
+            margin: 0;
+
+        }
+
+        .create_meet {
+            margin: 0;
+        }
+    }
+
+
+    .outer6 {
+        margin: 0;
+        width: 95vw;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+
+        &>* {
+            margin: 0;
+
+            &>* {
+                margin: 0;
+            }
+        }
+
+        .meet1 {
+            display: flex;
+            min-height: 25vh;
+            height: auto;
+            padding: .7rem 0rem;
+            flex-direction: column;
+            align-items: center;
+            justify-content: stretch;
+            width: 95%;
+            gap: 1rem;
+
+            .meetHeading {
+                font-size: 2.5rem;
+            }
+
+            .meet2 {
+                display: grid;
+                grid-template-columns: 4rem 1fr;
+                row-gap: .7rem;
+                column-gap: .5rem;
+                place-items: center;
+
+                &>img,
+                &>div {
+                    margin: 0;
+                }
+
+                &>img {
+                    object-fit: cover;
+                    height: 2.5rem;
+                    width: 2.5rem;
+                }
+
+                &>div {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .viewDetails {
+                font-size: 2rem;
+            }
+
+            .spanOuter {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .5rem;
+
+                &>* {
+                    font-size: 1.2rem;
+                    margin: 0;
+                }
+            }
+
+            .outer7 {
+                align-items: center;
+                justify-content: center;
+                gap: .5rem;
+
+                .avatarGroup {
+                    .avatar {
+                        object-fit: contain;
+                        height: 2.8rem;
+                        width: 2.8rem;
+                    }
+                }
+
+                &>* {
+                    font-size: 1.2rem;
+                    margin: 0;
+                }
+            }
+
+        }
+    }
+
+    .outer8 {
+        margin: 0;
+        width: 10rem;
+        height: 3rem;
+        display: grid;
+        place-content: center;
+    }
+}

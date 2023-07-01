@@ -1,0 +1,71 @@
+.cancelOuter2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    z-index: 2000;
+    width: 35vw;
+    height: 50vh;
+    border-radius: 17px;
+}
+
+.cancelImg{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.childModal2{
+    font-size: large;
+    text-align: center;
+    margin-top: 30px;
+    color: hwb(215 12% 0%);
+    font-family: sans-serif;
+}
+
+.homeRouter{
+    width: 250px;
+    height: 45px;
+    background-color: hwb(200 2% 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen  and (max-width: 576px){
+    .cancelOuter2{
+        position: fixed;
+        top: 35%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 50px;
+        z-index: 2000;
+        width: 80vw;
+        height: 50vh;
+        border-radius: 17px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 820px){
+    .cancelOuter2{
+        top: 35%;
+        left: 40%;
+        width: 60vw;
+        height: 35vh;
+    }
+}

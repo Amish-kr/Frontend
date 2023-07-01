@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    /* border: 1px solid green; */
+  }
+  
+  @media screen and (max-width: 540px) {
+    .App{
+      padding-top: 0.4rem;
+      align-items: flex-start;
+    }
+  }

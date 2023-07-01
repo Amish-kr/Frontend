@@ -1,0 +1,51 @@
+/* External CSS */
+
+.home-container {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+  }
+  
+  .header-container {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .home-apply-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.85rem 1.75rem;
+    background-color: #0478FF;
+    color: white;
+    border-radius: 10px;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  .plus-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+
+  @media screen and (min-width:768px) and (max-width: 1024px) {
+    
+  }
+
+  @media screen and (max-width: 426px){
+    .header-container{
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+    }
+  }

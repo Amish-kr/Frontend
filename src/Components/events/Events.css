@@ -1,0 +1,134 @@
+#container{
+    /* Rectangle 19316 */
+    /*position: absolute;*/
+    width: 100%;
+    height: 14vh;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    background: #F9F9F9;
+    border-radius: 12px;
+    margin-top: 2vh;
+}
+.block-50{
+    display: inline-flex;
+    width: 50%;
+}
+.block-100{
+    display: inline-flex;
+    width: 100%;
+}
+.block100{
+    width: 100%;
+    display: inline-flex;
+}
+.block50{
+    width: 50%;
+}
+.block-1-2{
+    display: inline-flex;
+    width: 50%;
+}
+.Block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1{
+    width: 100%;
+}
+#ellipse{
+    /* Ellipse 1126 */
+    /*position: absolute;*/
+    width: 10px;
+    height: 10px;
+    left: 19px;
+    top: 25px;
+    margin: 10px;
+    /* Third main color */
+    background: #6A95CC;
+    border-radius: 50%;
+    
+}
+#date{
+    /* 05/03/2023 
+    position: absolute;*/
+    width: 100%;
+    height: 23px;
+    left: 39px;
+    top: 18px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 3px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Third main color */
+    color: #6A95CC;
+}
+#time{
+    /* 10:00 - 11:00 
+    position: absolute;*/
+    width: 89px;
+    margin: 3px;
+    height: 23px;
+    left: 207px;
+    top: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Third main color */
+    color: #6A95CC;
+}
+#text1{
+    width: 194px;
+    height: 27px;
+    left: 19px;
+    top: 55px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Main color */
+    color: #132666;
+}
+#text2{
+    width: 223px;
+    height: 21px;
+    left: 19px;
+    top: 88px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Third main color */
+    color: #6A95CC;
+}
+.img-rec{
+    height: auto;
+    max-height: 80px;
+    width: auto;
+    max-width: 70px;
+    border: 1px;
+    
+}

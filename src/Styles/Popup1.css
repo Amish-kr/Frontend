@@ -1,0 +1,95 @@
+
+  .header02{
+    color: #0E1A45;
+  margin-left:10%;
+  font-style: normal;
+  font-weight: 100%;
+  font-size: 24px;
+  }
+  .tidt02{
+    padding-right:75%;
+  }
+  .tidt03{
+    
+    padding-right: 72%;
+  }
+  .popup001 {
+    width: 500px;
+    color: #0E1A45;
+    max-width: 90%;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .popup-footer001 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .popup-button001 {
+
+    border-radius:10px;
+    padding:8px 80px;
+    background-color: #0478FF;
+    color: white;
+  }
+  
+  .popup-button001:hover {
+    background-color: white;
+    color: blue;
+  }
+  
+  .in1 {
+    width: 130%;
+    padding: 7px;
+    padding-left: 5%;
+    margin-bottom: 20px; /* Add gap after input for spacing */
+    border-radius:10px;
+    background-color:white;
+    border:solid 1px rgb(217, 214, 214); 
+    font-size:13px;
+  }
+  
+  .in2 {
+    padding-top: 10%;
+    margin-top:2%;
+    width: 130%;
+    padding-left: 5%;
+    padding-bottom: 40%;
+    border-radius:10px;
+    font-size:15px;
+    background-color:white;
+    border:solid 1px rgb(217, 214, 214); 
+  }
+  
+  .popup001.hidden {
+    display: none;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .header02{
+      font-size: 18px;
+      margin-left:40%;
+  
+    }
+    .popup001 {
+      width: 90%;
+      height: auto;
+      padding: 10px;
+    }
+    .tidt02{
+        padding-left:10%;
+    }
+    .tidt03{
+      padding-left:8%;
+  }
+    .popup-button001 {
+      border-radius:10px;
+      padding:4px 40px;
+    }
+  }

@@ -1,0 +1,55 @@
+.header-toggle-buttons-frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: fit-content;
+}
+
+.header-toggle-buttons-title {
+  font-family: "Poppins";
+  color: rgba(14, 26, 69, 1);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin: 0;
+}
+
+.header-toggle-buttons-group {
+  position: relative;
+  min-width: 350px;
+  height: 50px;
+  border-radius: 8.91px;
+  border: 1.78px solid;
+  border-color: #e6e6e6;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-toggle-button {
+  font-family: "Poppins";
+  color: rgba(14, 26, 69, 1);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.89px;
+  position: relative;
+  width: 50%;
+  align-items: center;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header-toggle-button-active {
+  background-color: rgba(14, 26, 69, 1);
+  border-radius: 8.02px;
+  height: 50px;
+  width: 173px;
+  color: #ffffff;
+}

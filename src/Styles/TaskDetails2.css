@@ -1,0 +1,253 @@
+/* Task Details component classes start */
+.task-details-frame {
+  position: relative;
+  padding: 1rem 0rem;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100%;
+  /* background-image: url("/assets/mainbg.svg"); */
+  font-family: "Poppins", sans-serif;
+}
+
+.task-details-main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.task-details-ellips {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 881px;
+  top: 1268px;
+}
+
+.task-details-ellips-2 {
+  position: absolute;
+  width: 1001px;
+  height: 1000px;
+  left: 1273.53px;
+  top: 1132px;
+}
+
+.task-details-ellips-3 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 1222px;
+  top: 1565px;
+}
+
+/* Task Detailsclasses end */
+
+/* Homebar Component classes start */
+.homebarcontainer {
+  display: flex;
+  padding: 0rem 0.75rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  width: 95%;
+  height: 52px;
+  background-color: rgba(180, 213, 255, 0.46);
+}
+
+.homebarcontainer .leftgroup {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.homebarcontainer .leftgroup button {
+  width: 1.25rem;
+  object-fit: fill;
+}
+
+.homebarcontainer .leftgroup p {
+  font-size: 12px;
+  font-weight: 500;
+  color: black;
+}
+
+.homebarcontainer .rightgroup {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 9px;
+}
+
+.homebarcontainer .rightgroup button:nth-child(1) {
+  width: 7rem;
+  padding: 8px 0px;
+  border-radius: 6px;
+  background-color: #33cc5b;
+}
+
+.homebarcontainer .rightgroup button:nth-child(2) {
+  display: flex;
+  padding: 0.5rem 0;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-radius: 0.375rem;
+  gap: 0.25rem;
+  background: #0478ff;
+  width: 5rem;
+}
+
+.homebarcontainer .rightgroup img {
+  width: 1rem;
+  object-fit: contain;
+}
+
+.homebarcontainer .rightgroup p {
+  height: 0.75rem;
+}
+
+/* Homebar Component classes end */
+
+/* Group components classes start */
+.subcontainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  /* max-height: 4rem; */
+  gap: 5.2rem;
+}
+
+.departmentsubcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.departmentsubcontainer h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.departmentsubcontainer p {
+  font-size: 14px;
+}
+
+/* Group components classes end */
+
+/* Date component classes start */
+.datecontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 35%;
+}
+
+.datecontainer span {
+  font-size: 12px;
+  width: 90%;
+  gap: 1rem;
+  display: flex;
+  word-spacing: 6px;
+}
+
+.datesubcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datesubcontainer p {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* .datesubcontainer button {
+  padding: 0.5rem 2.5rem;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-size: 10.5px;
+} */
+
+/* Date component classes end */
+
+/* Description component classes start */
+.descriptioncontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15%;
+}
+
+.descriptioncontainer img {
+  width: 1.5rem;
+}
+
+.descriptioncontainer p {
+  color: #3b82f6;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Description component classes end */
+
+/* Participants component classes start */
+.participantscontainer {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+  width: 45%;
+}
+
+.participantscontainer div {
+  position: absolute;
+}
+
+.participantscontainer div img {
+  object-fit: fill;
+  transition-property: all;
+  transition-duration: 200ms;
+  border-radius: 50%;
+  height: 3rem;
+}
+
+.participantscontainer div img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.participantscontainer p {
+  font-size: 0.8rem;
+  padding-left: 3.5rem;
+}
+
+/* Participants component classes end */
+
+/* Description task component classes start */
+
+.descriptiontaskcontainer {
+  display: flex;
+  gap: 0.5rem;
+  width: 80%;
+}
+
+.descriptiontaskcontainer div {
+  display: flex;
+}
+
+.descriptiontaskcontainer p {
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Description task component classes end */

@@ -1,0 +1,240 @@
+.my-task-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center; /* Added alignment */
+  justify-content: center; /* Added alignment */
+}
+.Rectangle19310_1 {
+  box-sizing: border-box;
+  width: 1124px;
+  background: #f5faf64c;
+  border: 1px solid #0000004c;
+  border-radius: 20px;
+  padding: 30px;
+  
+}
+
+.Perform_UX_Research_on_Edfling_Home_page {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin: -1px;
+  color: #0e1a45;
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.Assign_Date {
+  font-weight: 600;
+}
+
+.Assign_Date_Time {
+  font-family: "Poppins", Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0e1a45;
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.my-tak-frame2 {
+  align-items: center;
+  display: flex;
+  gap: 7px;
+  position: relative;
+  width: fit-content;
+}
+
+.Task_Description {
+  font-family: "Poppins", Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: #0e1a45;
+}
+
+.view-details-frame {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  height: 20px;
+  left: 928px;
+  position: absolute;
+  top: 82px;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  background-color: #f5faf64c;
+}
+
+.view-details {
+  color: #0478ff;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+}
+
+.parent-div {
+  position: relative;
+}
+
+.View_More {
+  width: 73px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.View_details {
+  width: 85px;
+  height: 21px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #0478ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Frame1000003785 {
+  display: flex;
+  font-family: "Poppins", Helvetica;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 80px;
+  gap: 10px;
+  min-width: 233px;
+  height: 37px;
+  background: #0478ff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.my-task-frame-4 {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.flex-main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-left: 1px;
+  margin-top: 22px;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto; /* Add this line for horizontal centering */
+}
+
+.my-task-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* Add this line for horizontal centering */
+}
+
+.Rectangle19310_1 {
+  box-sizing: border-box;
+  width: 1124px;
+  background: #f5faf64c;
+  border: 1px solid #0000004c;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 0 auto; /* Add this line for horizontal centering */
+}
+
+.HeaderToggelButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Add this line for horizontal centering */
+  align-items: center; /* Add this line for vertical centering */
+}
+
+.Title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin: -1px;
+  color: #0e1a45;
+  letter-spacing: 0;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto; /* Add this line for horizontal centering */
+}
+
+.Components {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center; /* Add this line for horizontal centering */
+  align-items: center; /* Add this line for vertical centering */
+  margin: 0 auto; /* Add this line for horizontal centering */
+}
+@media (max-width: 1124px) {
+  .Rectangle19310_1 {
+    width: 90%;
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Rectangle19310_1 {
+    padding: 20px;
+  }
+
+  .view-details-frame {
+    flex-direction: column;
+    gap: 10px;
+    top: auto;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+  }
+
+  .view-details {
+    width: 100%;
+  }
+
+  .my-task-frame-4 {
+    flex-direction: column;
+  }
+}

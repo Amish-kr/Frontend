@@ -1,0 +1,166 @@
+.conta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px; 
+}
+
+.rowing {
+  display: flex;
+  align-items: center;
+  margin-left:10%;
+}
+
+.labeling {
+  flex: 0 0 auto; 
+  font-size:20px;
+}
+
+.form-grouping {
+  flex: 0 0 auto; 
+}
+
+.inputing {
+  width: 100%;
+
+}
+
+
+#searing {
+  border: none;
+  border-radius: 6%;
+  width: 200%;
+  padding: 20%;
+  margin-left:90%;
+  background-color: darkblue;
+  color: white;
+
+}
+#exping{
+  border: none;
+  border-radius: 6%;
+  width: 200%;
+  padding: 20%;
+  margin-left:230%;
+  background-color: purple;
+  color: white;
+ 
+}
+
+
+#searing:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#exp:hover {
+  background-color: yellow;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .rowing {
+    padding-left: 0;
+  }
+
+  .in1 {
+    font-size: 16px;
+  }
+
+  .input1,
+  .input2 {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  #searing,
+  #exping {
+    max-width: 200%;
+    margin-left:0;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  
+  .rowing {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .in1 {
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .input1,
+  .input2 {
+    max-width: 100%;
+  }
+  
+  #searing,
+  #exping {
+    margin-right:auto;
+    margin-left:auto;
+    
+  }
+}
+.form-grouping {
+  margin-bottom: 0;
+}
+
+.btn-primary09 {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.table09 {
+  margin-left: 10%;
+  width: 80%;
+  border-collapse: collapse;
+  border: none;
+  margin-top:2%;
+}
+
+.table09 th {
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.table09 td {
+  padding: 5px;
+  padding-bottom: 30px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.table09 th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table09 td {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .table09 {
+    margin-left: 5%;
+    width: 50%;
+    margin-top:0.5%;
+  }
+
+  .table09 th,
+  .table09 td {
+    padding: 10px;
+    padding-bottom: 15px;
+  }
+  
+  .table09 th {
+    padding-left: 10px;
+  }
+}
