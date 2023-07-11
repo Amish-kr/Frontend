@@ -1,0 +1,222 @@
+.login-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.validation-error {
+  color: red;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.forget {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Account {
+  text-align: center;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+/*.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a1caff;
+    text-align: center;
+  }
+  */
+.left-section,
+.right-section {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.welcome {
+  color: #396ed0;
+  width: 100%;
+  font-size: 24px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hi {
+  color: #396ed0;
+  width: 100%;
+
+}
+
+.kartexian {
+  color: #3a4d8f;
+  width: 100%;
+}
+
+.right {
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  position: relative;
+  height: 150vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #a1caff;
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+.right-section .agreement-label{
+  display: flex;
+  /* border: 1px solid black; */
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.agreement-text {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left-section {
+    order: 2;
+    margin-bottom: 20px;
+  }
+
+  .right-section {
+    order: 1;
+    margin-top: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    padding: 5px;
+    /* Reduce the padding */
+  }
+
+  .welcome {
+    font-size: 18px;
+    white-space: normal;
+  }
+
+  .right-section img {
+    margin-bottom: 20px;
+  }
+
+  .left-section img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+/* Modal.css */
+
+.form-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-popup h3 {
+  margin-top: 0;
+}
+
+.form-popup p {
+  margin-bottom: 10px;
+}
+
+.form-popup button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-popup button:hover {
+  background-color: blue;
+}
+
+.form-popup {
+  color: #3c89ee;
+}

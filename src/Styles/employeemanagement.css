@@ -1,0 +1,157 @@
+
+
+.Employee_management_wrapper {
+  &>h1 {
+    font-size: clamp(1rem, 3vw, 2rem);
+    margin: 0;
+  }
+}
+
+.Employee_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 .2rem 10px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  max-height: 60vh;
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+.Employee_table {
+  width: 100%;
+  border-collapse: collapse;
+  position: relative;
+  text-align: center;
+
+  .Employee_table_username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    &>input {
+      padding: .2rem .5rem;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+      font-size: clamp(.5rem, 2vw, 1rem);
+    }
+  }
+}
+
+.Employee_table thead {
+  background-color: rgba(129, 157, 227, 1);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.Employee_table thead tr th {
+  padding: .5rem;
+  font-size: clamp(.5rem, 2vw, 1.1rem);
+}
+
+.Employee_table tbody tr td {
+  padding: .5rem;
+  font-size: clamp(.5rem, 2vw, .9rem);
+}
+
+.Employee_table tbody tr td button {
+  padding: .2rem .5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: clamp(.5rem, 2vw, 1rem);
+  background-color: rgba(129, 157, 227, 1);
+  color: white;
+  cursor: pointer;
+}
+
+.Employee_table tr {
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.Employee_table tbody .Employee_user {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+
+  &>img {
+    width: 2.5rem;
+    object-fit: contain;
+    border-radius: 50%;
+  }
+
+  &>h4 {
+    margin: 0;
+    min-width: 70%;
+    text-align: right;
+    font-size: clamp(.5rem, 2vw, 1rem);
+  }
+
+}
+
+.Employee_table tbody {
+
+  .Employee_delete{
+    &>div,
+    &>div>div {
+      gap: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .Employee_edit{
+    &>div,
+    &>div>div {
+      gap: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &>div>div>p{
+      margin: 0;
+    }
+  }
+
+  .Employee_suspend{
+    &>div,
+    &>div>div {
+      gap: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &>div>div>p{
+      margin: 0;
+    }
+  }
+
+  .Employee_block{
+    &>div,
+    &>div>div {
+      gap: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &>div>div>p{
+      margin: 0;
+    }
+  }
+
+  &>tr>td>input, &>tr>td>div>h4>input{
+    /* border: none; */
+    border-radius: 5px;
+    padding: .2rem 0rem;
+    outline: none;
+    text-align: center;
+    font-size: clamp(.5rem, 2vw, 1rem);
+  }
+}

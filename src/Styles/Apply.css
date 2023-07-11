@@ -1,0 +1,36 @@
+/* External CSS */
+
+.apply-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem/* 40px */;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 2.5rem/* 40px */;
+  }
+  
+  .banner-image {
+    width: 31.2rem;
+    height: 31.2rem;
+  }
+  
+  @media screen and (max-width:425px) {
+    .banner-image{
+      display: none;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .banner-image{
+      width: 30%;
+      object-fit: contain;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+    .banner-image{
+      width: 30%;
+      object-fit: contain;
+    }
+  }

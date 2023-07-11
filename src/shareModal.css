@@ -1,0 +1,324 @@
+
+.shareModalOuter{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    z-index: 1000;
+    width: 46vw;
+    height: 52vh;
+    border-radius: 17px;
+}
+
+.modalOverlay2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(89, 88, 88, 0.7);
+    z-index: 1000;
+}
+
+.crossImg2{
+    position: fixed;
+    top: 18%;
+    left: 71%;
+    z-index: 2000;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer
+}
+
+.modalHeadOuter{
+    display: flex;
+}
+
+.modalHead{
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-top: -29px;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+.modalHeadImg{
+    width: 75px;
+    height: 75px;
+    margin-left: 110px;
+    margin-top: -29px;
+}
+
+.shareModalText{
+    margin-left: -20px;
+    font-family: sans-serif;
+    margin-top: -40px;
+    color: rgb(83, 82, 82);
+}
+
+.shareModalText2{
+    margin-top: 1px;
+}
+
+.linkHead{
+    font-size: medium;
+    margin-top: 24px;
+    margin-left: -20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.linkOuter{
+    display: flex;
+    margin-top: 3px;
+}
+
+.projectLink{
+    width: 35vw;
+    height: 45px;
+    border: 2px solid rgb(224, 223, 223);
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.projectLinkP1{
+    text-decoration: underline;
+}
+
+.projectEmbed{
+    margin-left: 180px;
+    width: 73px;
+    height: 30px;
+    background-color: rgb(228, 228, 228);
+    font-family: sans-serif;
+    font-size: 11px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hwb(215 12% 0%);
+}
+
+.linkCopy{
+    margin-left: 27px;
+    height: 42px;
+    width: 80px;
+    border: 2px solid rgb(224, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.linkCopyImg{
+    width: 60px;
+    height: 27px;
+}
+
+.searchOuter{
+    width: 33vw;
+    height: 45px;
+    border: 2px solid rgb(224, 223, 223);
+    margin-left: -20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+.searchImg{
+    width: 25px;
+    height: 25px;
+}
+
+.searchText{
+    border: none;
+    background: transparent;
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    color:rgb(156, 154, 154);
+    padding: 2px;
+}
+
+.sendInvite{
+    width: 105px;
+    height: 45px;
+    background-color: hwb(215 12% 0%);
+    margin-left: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.shareOuter{
+    display: flex;
+    margin-top: 3px;
+}
+
+.shareImg1{
+    width: 35px;
+    height: 35px;
+    margin: 3px;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+
+.shareImg{
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.modelDesign{
+    
+    margin-left: 100px;
+}
+
+.modalDesignImg{
+    width: 20vw;
+    height: 11vh;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+@media screen  and (max-width: 576px){
+    .shareModalOuter{
+        top: 35%;
+        left: 40%;
+        width: 80vw;
+        height: 45vh;
+        border-radius: 14px;
+    }
+
+    .crossImg2{
+        top: 12%;
+        left: 63%;
+    }
+
+    .modalHead{
+        font-size: 11px;
+        margin-top: -29px;
+        margin-left: -20px;
+        display: flex;
+    }
+
+    .modalHeadImg{
+        width: 55px;
+        height: 55px;
+        margin-left: 150px;
+        margin-top: -31px;
+    }
+
+    .shareModalText{
+        margin-left: -20px;
+        margin-top: -40px;
+        font-size: 11px;
+        margin-top: 10px;
+    }
+
+    .projectLink{
+        width: 48vw;
+        height: 45px;
+    }
+
+    .linkHead{
+        font-size: small;
+        margin-top: 12px;
+    }
+
+    .linkCopy{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 820px){
+    .shareModalOuter{
+        top: 35%;
+        left: 40%;
+        width: 70vw;
+        height: 42vh;
+    }
+
+    .crossImg2{
+        top: 14%;
+        left: 65%;
+        width: 48px;
+        height: 48px;
+    }
+
+    .modalHead{
+        margin-top: -20px;
+    }
+
+    .shareModalText{
+        margin-left: -20px;
+        font-family: sans-serif;
+        margin-top: -10px;
+        color: rgb(83, 82, 82);
+    }
+
+    .shareModalText2{
+        margin-top: 5px;
+    }
+
+    .linkHead{
+        font-size: 20px;
+    }
+
+    .projectLink{
+        width: 45vw;
+        height: 47px;
+        font-size: 16px;
+    }
+
+    .linkCopy{
+        width: 180px;
+    }
+
+    .projectEmbed{
+        width: 95px;
+    }
+
+    .searchOuter{
+        width: 45vw;
+    }
+
+    .shareImg1{
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+        margin-left: -20px;
+        margin-top: 7px;
+    }
+    
+    .shareImg{
+        width: 60px;
+        height: 60px;
+        margin-left: 30px;
+        margin-top: 7px;
+    }
+
+    .modalDesignImg{
+        margin-left: -1px;
+        margin-left: 130px;
+        margin-top: -9px;
+    }
+} 

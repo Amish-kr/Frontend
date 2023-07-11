@@ -1,0 +1,126 @@
+.mymeeting__form_container{
+  flex: 1;
+
+  .my-meeting-form{
+
+    &>*{
+      margin: 0;
+      &:not(:last-child){
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.form-items {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-row-gap: 2em;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  
+  .form-items input {
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    padding: 4px 11px;
+    background: rgba(209, 209, 209, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 100%;
+  
+    margin-left: 1rem;
+  }
+
+  .errorset{
+    padding-left: 15px;
+  }
+  
+  .form-items input:focus {
+    border-bottom: 1px solid #6941c6;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+  }
+  
+  .form-items input::placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 16px;
+    color: #616161;
+    opacity: 0.4;
+  }
+  
+  .form-items h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 21px;
+    /* identical to box height */
+    white-space: nowrap;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: right;
+    display: inline-block;
+    min-width: 150px;
+  
+    /* Main color */
+    /* width: 100px; */
+  
+    color: #132666;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  .thumbnail-container img {
+    margin-top: 9rem;
+    margin-left: 8rem;
+  }
+  
+  .meeting-information {
+    /* margin-top: 5rem; */
+    display: block;
+    margin-left: 20%;
+    color: #0E1A45;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .save-button {
+    padding: 8px 113px;
+    gap: 10px;
+    width: 261px;
+    height: 37px;
+    background: #0478FF;
+    border-radius: 10px;
+    border: none;
+    /* margin-top: 2rem; */
+    margin-left: 25%; 
+    align-self: center;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .start-end h4 {
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin: 10px auto;
+  }
+  
+  
+  
+
+

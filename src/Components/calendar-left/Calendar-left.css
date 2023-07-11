@@ -1,0 +1,46 @@
+.calendar_left{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+}
+#upcoming_events{
+    /* Upcoming events */
+    width: 217px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Main color */
+    color: #132666; flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+#dont_miss_schedule_events{
+    /* Don’t miss schedule events */
+    width: 179px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* Third main color */
+    color: #6A95CC;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.sidebar{
+    width: 100%;
+}

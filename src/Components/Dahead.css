@@ -1,0 +1,15 @@
+@media screen and (max-width: 500px) {
+  .header__remaining-time, .header__last-login-time {
+    display: none;
+  }
+
+  .header__company-logo{
+    object-fit: contain !important;
+    height: 2.5rem !important;
+  }
+}
+
+.header__company-logo{
+  object-fit: contain !important;
+  height: 60px;
+}

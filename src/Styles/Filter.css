@@ -1,0 +1,62 @@
+/* /////////////////////////////////////////////////////// */
+/* filter fields */
+
+.filter__fields {
+    position: relative;
+}
+
+.filter__options {
+    position: absolute;
+    top: 110%;
+    right: 0;
+    z-index: 99;
+    /* border: 1px solid red; */
+    width: 60%;
+    max-height: 12rem;
+    /* height: 12rem; */
+    overflow-y: scroll;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter__option {
+    background-color: #888;
+    color: white;
+    padding: .1rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.filter__option:hover {
+    background-color: #656565;
+}
+
+.filter__options::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filter__options::-webkit-scrollbar-track {
+    background: #b9b7b7;
+    border-radius: 8px;
+}
+
+.filter__options::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+
+.filter__options::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+@media screen and (max-width: 420px) {
+    .filter__options {
+        right: 15%;
+        width: 70%;
+    }
+
+}

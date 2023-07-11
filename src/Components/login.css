@@ -1,0 +1,127 @@
+.login-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.validation-error {
+  color: red;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.forget {
+
+  color: black;
+  text-decoration: none;
+}
+
+.hey {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #616161;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Account {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a1caff;
+  text-align: center;
+}
+*/
+.left-section,
+.right-section {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.welcome {
+  color: #396ed0;
+  width: 100%;
+
+}
+
+.hi {
+  color: #396ed0;
+  width: 100%;
+
+}
+
+.kartexian {
+  color: #3a4d8f;
+  width: 100%;
+}
+
+.right {
+  text-align: center;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a1caff;
+}
+
+.left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-section img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Responsive styles */
+
+@media (max-width: 767px) {
+  .left-section {
+    display: none !important;
+  }
+
+  .right-section {
+    order: 1 !important;
+  }
+
+  .left-section,
+  .right-section {
+    width: 80vw !important;
+    padding: 20px;
+  }
+
+  .right-section img {
+    margin-bottom: 20px;
+  }
+}
